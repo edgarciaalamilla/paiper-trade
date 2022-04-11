@@ -1,0 +1,31 @@
+.sidebar {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: rgb(34, 34, 34);
+  width: 4rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+
+  .sidebar-icons {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+    svg {
+      margin-bottom: 1rem;
+      fill: rgb(84, 84, 84);
+      height: 36px;
+      width: 36px;
+
+      &:hover {
+        fill: rgb(105, 192, 255);
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}
